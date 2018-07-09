@@ -15,6 +15,7 @@
 
     <!-- Custom styles for this template -->
     <link href="./scrolling-nav.css" rel="stylesheet">
+    <link href="./font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css">
 
   </head>
 
@@ -22,32 +23,41 @@
 
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+      <a class="navbar-brand" href="#">
+        <img src="png/L2Horizontal.png" width="65" height="40" alt="">
+      </a>
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="png/L2Widget.png" class="img-thumbnail"></a>
+        <a class="navbar-brand js-scroll-trigger" href="#page-top"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#about">About</a>
+              <a class="nav-link title js-scroll-trigger" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#services">Services</a>
+              <a class="nav-link  title js-scroll-trigger" href="#services">Services</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+              <a class="nav-link  title js-scroll-trigger" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
 
-    <header class="bg-primary text-white">
-      <img src="png/L2Horizontal.png" class="img-fluid">
+    <header class="">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 ">
+            <img src="png/L2PrimaryGrey.png" height="275" alt="">
+          </div>
+        </div>
+      </div>
     </header>
 
-    <section id="about">
+    <section id="about" class="bg-light">
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto">
@@ -59,7 +69,7 @@
       </div>
     </section>
 
-    <section id="services" class="bg-light">
+    <section id="services" >
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto">
@@ -70,12 +80,12 @@
       </div>
     </section>
 
-    <section id="contact">
+    <section id="contact" class="bg-light">
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto">
             <h2>Contact</h2>
-            <p class="lead">To learn more, contact us: info@l2platforms.com</p>
+            <p class="lead"><i class="fa fa-envelope icon"></i><a href="mailto:info@l2platforms.com" class="email">info@l2platforms.com</a></p>
           </div>
         </div>
       </div>
@@ -84,6 +94,7 @@
     <!-- Footer -->
     <footer class="py-5 bg-dark">
       <div class="container">
+        <p class="m-0 text-center text-white"><a href="https://www.twitter.com/l2platforms"><i class="fa fa-2x fa-twitter-square icon"></i></a><i class="fa fa-2x fa-linkedin icon"></i></p>
         <p class="m-0 text-center text-white">Copyright &copy; L2 Platforms 2018</p>
       </div>
       <!-- /.container -->
